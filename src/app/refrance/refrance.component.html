@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="form-container">
+        <input type="text" #ref>
+        <button class="btn btn-dark" (click)="addData(ref.value)">Add</button>
+        <button class="btn btn-dark" (click)="deleteData(ref.value)">Delete</button>
+    </div>
+    <ul *ngFor="let x of ary">
+        <li>{{x}}</li>
+    </ul>
+    <br>
+
+</div>
+
+<div class="item">
+    <button class="btn btn-dark" (click)="addData1()">Add</button> <br> <br>
+
+    <p>{{counter}}</p>
+    <button class="btn btn-dark" (click)="deleteData2()">Delete</button>
+
+</div>

@@ -1,0 +1,9 @@
+.container{
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 780px;
+}
+
+.test{
+    margin-right: 20px;
+}

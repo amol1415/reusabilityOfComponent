@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="row">
+        <div class="test col-4 mt-4 ms-4 ">
+            <app-common>
+                <h3 class="card-title mt-2 ms-2">Card 1</h3>
+                <img class="card-img-top" [src]="image1" alt="Card image cap" height="200px">
+
+                <a href="#" class="btn btn-info">Go somewhere</a>
+            </app-common>
+        </div>
+        <div class="test col-4 mt-4 ms-4">
+            <app-common>
+                <h3 class="card-title mt-2 ms-2">Card 2</h3>
+                <img class="card-img-top" [src]="image2" alt="Card image cap" height="200px">
+
+                <a href="#" class="btn btn-secondary">Go anywhere</a>
+            </app-common>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="test col-4 mt-4 ms-4 ">
+            <app-common>
+                <h3 class="card-title mt-2 ms-2">Card 3</h3>
+                <img class="card-img-top" [src]="image3" alt="Card image cap" height="200px">
+
+                <a href="#" class="btn btn-dark">Go to school</a>
+            </app-common>
+
+        </div>
+        <div class=" test col-4 mt-4 ms-4">
+            <app-common>
+                <h3 class="card-title mt-2 ms-2">Card 4</h3>
+                <img class="card-img-top" [src]="image4" alt="Card image cap" height="200px">
+
+                <a href="#" class="btn btn-primary" (click)="showCardInfo()">Go to collage</a>
+            </app-common>
+
+        </div>
+
+    </div>
+</div>
